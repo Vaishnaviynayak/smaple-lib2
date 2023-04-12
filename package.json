@@ -1,0 +1,34 @@
+{
+  "name": "@Vaishnaviynayak/sample-lib2",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Vaishnaviynayak"
+  },
+  "scripts": {
+    
+    "rollup":"rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@Vaishnaviynayak"
+  },
+  "author": "vaish",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/react": "^18.0.34",
+    "react": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "typescript": "^5.0.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
